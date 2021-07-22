@@ -1,0 +1,6 @@
+
+ <%= render 'layouts/book', user:current_user %>
+
+<% @users.each do | user | %>
+<%= user.name %>
+<% end %>
