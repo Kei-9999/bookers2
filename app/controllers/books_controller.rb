@@ -13,14 +13,16 @@ class BooksController < ApplicationController
   def show
     @book = Book.find(params[:id])
 
+
   end
 
   def create
     # １. データを新規登録するためのインスタンス作成
     @book = Book.new(book_params)
+    @book.user_id = current_user.id
     # ２. データをデータベースに保存するためのsaveメソッド実行
     @books = Book.all
-    if @book.save
+    if @book.save!
       flash[:notice] = 'Book was successfully created.'
       redirect_to book_path(@book.id)
     else
