@@ -10,4 +10,6 @@ Rails.application.routes.draw do
 
   get 'home/about' => 'homes#about'
 
+  resources :profile_image, only: [:new, :create, :index, :show, :destroy]
+
 end

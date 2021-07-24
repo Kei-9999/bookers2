@@ -1,8 +1,9 @@
 class UsersController < ApplicationController
   def show
     @user = User.find(params[:id])
-    @books = @user.books
+   
     @book = Book.new
+    @image = @profile_image_id
   end
 
   def edit
@@ -12,6 +13,10 @@ class UsersController < ApplicationController
 
   def index
     @users = User.all
+    @user = current_user
+    @book = Book.new
+   
+
   end
 
   def update
