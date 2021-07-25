@@ -1,0 +1,256 @@
+
+An error occurred while loading ./spec/models/book_spec.rb.
+[31mFailure/Error: require File.expand_path('../../config/environment', __FILE__)[0m
+[31m[0m
+[31mSyntaxError:[0m
+[31m  /home/ec2-user/environment/bookers2/app/models/user.rb:11: syntax error, unexpected tINTEGER, expecting do or '{' or '('[0m
+[31m  ...ength: { minimum: 2, maximum 20 }[0m
+[31m  ...                             ^~[0m
+[36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/bootsnap-1.7.5/lib/bootsnap/load_path_cache/core_ext/kernel_require.rb:23:in `require'[0m
+[36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/bootsnap-1.7.5/lib/bootsnap/load_path_cache/core_ext/kernel_require.rb:23:in `block in require_with_bootsnap_lfi'[0m
+[36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/bootsnap-1.7.5/lib/bootsnap/load_path_cache/loaded_features_index.rb:92:in `register'[0m
+[36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/bootsnap-1.7.5/lib/bootsnap/load_path_cache/core_ext/kernel_require.rb:22:in `require_with_bootsnap_lfi'[0m
+[36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/bootsnap-1.7.5/lib/bootsnap/load_path_cache/core_ext/kernel_require.rb:31:in `require'[0m
+[36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/activesupport-5.2.6/lib/active_support/dependencies.rb:291:in `block in require'[0m
+[36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/activesupport-5.2.6/lib/active_support/dependencies.rb:257:in `load_dependency'[0m
+[36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/activesupport-5.2.6/lib/active_support/dependencies.rb:291:in `require'[0m
+[36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/activesupport-5.2.6/lib/active_support/dependencies.rb:378:in `block in require_or_load'[0m
+[36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/activesupport-5.2.6/lib/active_support/dependencies.rb:37:in `block in load_interlock'[0m
+[36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/activesupport-5.2.6/lib/active_support/dependencies/interlock.rb:14:in `block in loading'[0m
+[36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/activesupport-5.2.6/lib/active_support/concurrency/share_lock.rb:151:in `exclusive'[0m
+[36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/activesupport-5.2.6/lib/active_support/dependencies/interlock.rb:13:in `loading'[0m
+[36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/activesupport-5.2.6/lib/active_support/dependencies.rb:37:in `load_interlock'[0m
+[36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/activesupport-5.2.6/lib/active_support/dependencies.rb:356:in `require_or_load'[0m
+[36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/activesupport-5.2.6/lib/active_support/dependencies.rb:510:in `load_missing_constant'[0m
+[36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/activesupport-5.2.6/lib/active_support/dependencies.rb:195:in `const_missing'[0m
+[36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/activesupport-5.2.6/lib/active_support/inflector/methods.rb:283:in `const_get'[0m
+[36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/activesupport-5.2.6/lib/active_support/inflector/methods.rb:283:in `block in constantize'[0m
+[36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/activesupport-5.2.6/lib/active_support/inflector/methods.rb:281:in `each'[0m
+[36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/activesupport-5.2.6/lib/active_support/inflector/methods.rb:281:in `inject'[0m
+[36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/activesupport-5.2.6/lib/active_support/inflector/methods.rb:281:in `constantize'[0m
+[36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/activesupport-5.2.6/lib/active_support/dependencies.rb:582:in `get'[0m
+[36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/activesupport-5.2.6/lib/active_support/dependencies.rb:613:in `constantize'[0m
+[36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/devise-4.8.0/lib/devise.rb:316:in `get'[0m
+[36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/devise-4.8.0/lib/devise/mapping.rb:83:in `to'[0m
+[36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/devise-4.8.0/lib/devise/mapping.rb:78:in `modules'[0m
+[36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/devise-4.8.0/lib/devise/mapping.rb:95:in `routes'[0m
+[36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/devise-4.8.0/lib/devise/mapping.rb:162:in `default_used_route'[0m
+[36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/devise-4.8.0/lib/devise/mapping.rb:72:in `initialize'[0m
+[36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/devise-4.8.0/lib/devise.rb:346:in `new'[0m
+[36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/devise-4.8.0/lib/devise.rb:346:in `add_mapping'[0m
+[36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/devise-4.8.0/lib/devise/rails/routes.rb:243:in `block in devise_for'[0m
+[36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/devise-4.8.0/lib/devise/rails/routes.rb:242:in `each'[0m
+[36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/devise-4.8.0/lib/devise/rails/routes.rb:242:in `devise_for'[0m
+[36m# ./config/routes.rb:3:in `block in <main>'[0m
+[36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/actionpack-5.2.6/lib/action_dispatch/routing/route_set.rb:432:in `instance_exec'[0m
+[36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/actionpack-5.2.6/lib/action_dispatch/routing/route_set.rb:432:in `eval_block'[0m
+[36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/actionpack-5.2.6/lib/action_dispatch/routing/route_set.rb:414:in `draw'[0m
+[36m# ./config/routes.rb:1:in `<main>'[0m
+[36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/bootsnap-1.7.5/lib/bootsnap/load_path_cache/core_ext/kernel_require.rb:59:in `load'[0m
+[36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/bootsnap-1.7.5/lib/bootsnap/load_path_cache/core_ext/kernel_require.rb:59:in `load'[0m
+[36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/activesupport-5.2.6/lib/active_support/dependencies.rb:285:in `block in load'[0m
+[36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/activesupport-5.2.6/lib/active_support/dependencies.rb:257:in `load_dependency'[0m
+[36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/activesupport-5.2.6/lib/active_support/dependencies.rb:285:in `load'[0m
+[36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/railties-5.2.6/lib/rails/application/routes_reloader.rb:41:in `block in load_paths'[0m
+[36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/railties-5.2.6/lib/rails/application/routes_reloader.rb:41:in `each'[0m
+[36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/railties-5.2.6/lib/rails/application/routes_reloader.rb:41:in `load_paths'[0m
+[36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/railties-5.2.6/lib/rails/application/routes_reloader.rb:20:in `reload!'[0m
+[36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/railties-5.2.6/lib/rails/application/routes_reloader.rb:30:in `block in updater'[0m
+[36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/activesupport-5.2.6/lib/active_support/file_update_checker.rb:83:in `execute'[0m
+[36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/railties-5.2.6/lib/rails/application/routes_reloader.rb:10:in `execute'[0m
+[36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/railties-5.2.6/lib/rails/application/finisher.rb:130:in `block in <module:Finisher>'[0m
+[36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/railties-5.2.6/lib/rails/initializable.rb:32:in `instance_exec'[0m
+[36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/railties-5.2.6/lib/rails/initializable.rb:32:in `run'[0m
+[36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/railties-5.2.6/lib/rails/initializable.rb:61:in `block in run_initializers'[0m
+[36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/railties-5.2.6/lib/rails/initializable.rb:60:in `run_initializers'[0m
+[36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/railties-5.2.6/lib/rails/application.rb:361:in `initialize!'[0m
+[36m# ./config/environment.rb:5:in `<top (required)>'[0m
+[36m# ./spec/rails_helper.rb:4:in `require'[0m
+[36m# ./spec/rails_helper.rb:4:in `<top (required)>'[0m
+[36m# ./spec/models/book_spec.rb:1:in `require'[0m
+[36m# ./spec/models/book_spec.rb:1:in `<top (required)>'[0m
+
+An error occurred while loading ./spec/models/user_spec.rb.
+[31mFailure/Error: require File.expand_path('../../config/environment', __FILE__)[0m
+[31m[0m
+[31mFrozenError:[0m
+[31m  can't modify frozen Array[0m
+[36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/railties-5.2.6/lib/rails/engine.rb:587:in `unshift'[0m
+[36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/railties-5.2.6/lib/rails/engine.rb:587:in `block in <class:Engine>'[0m
+[36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/railties-5.2.6/lib/rails/initializable.rb:32:in `instance_exec'[0m
+[36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/railties-5.2.6/lib/rails/initializable.rb:32:in `run'[0m
+[36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/railties-5.2.6/lib/rails/initializable.rb:61:in `block in run_initializers'[0m
+[36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/railties-5.2.6/lib/rails/initializable.rb:50:in `each'[0m
+[36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/railties-5.2.6/lib/rails/initializable.rb:50:in `tsort_each_child'[0m
+[36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/railties-5.2.6/lib/rails/initializable.rb:50:in `each'[0m
+[36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/railties-5.2.6/lib/rails/initializable.rb:50:in `tsort_each_child'[0m
+[36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/railties-5.2.6/lib/rails/initializable.rb:50:in `each'[0m
+[36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/railties-5.2.6/lib/rails/initializable.rb:50:in `tsort_each_child'[0m
+[36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/railties-5.2.6/lib/rails/initializable.rb:50:in `each'[0m
+[36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/railties-5.2.6/lib/rails/initializable.rb:50:in `tsort_each_child'[0m
+[36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/railties-5.2.6/lib/rails/initializable.rb:60:in `run_initializers'[0m
+[36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/railties-5.2.6/lib/rails/application.rb:361:in `initialize!'[0m
+[36m# ./config/environment.rb:5:in `<main>'[0m
+[36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/bootsnap-1.7.5/lib/bootsnap/load_path_cache/core_ext/kernel_require.rb:23:in `require'[0m
+[36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/bootsnap-1.7.5/lib/bootsnap/load_path_cache/core_ext/kernel_require.rb:23:in `block in require_with_bootsnap_lfi'[0m
+[36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/bootsnap-1.7.5/lib/bootsnap/load_path_cache/loaded_features_index.rb:92:in `register'[0m
+[36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/bootsnap-1.7.5/lib/bootsnap/load_path_cache/core_ext/kernel_require.rb:22:in `require_with_bootsnap_lfi'[0m
+[36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/bootsnap-1.7.5/lib/bootsnap/load_path_cache/core_ext/kernel_require.rb:31:in `require'[0m
+[36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/activesupport-5.2.6/lib/active_support/dependencies.rb:291:in `block in require'[0m
+[36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/activesupport-5.2.6/lib/active_support/dependencies.rb:257:in `load_dependency'[0m
+[36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/activesupport-5.2.6/lib/active_support/dependencies.rb:291:in `require'[0m
+[36m# ./spec/rails_helper.rb:4:in `<main>'[0m
+[36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/bootsnap-1.7.5/lib/bootsnap/load_path_cache/core_ext/kernel_require.rb:23:in `require'[0m
+[36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/bootsnap-1.7.5/lib/bootsnap/load_path_cache/core_ext/kernel_require.rb:23:in `block in require_with_bootsnap_lfi'[0m
+[36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/bootsnap-1.7.5/lib/bootsnap/load_path_cache/loaded_features_index.rb:92:in `register'[0m
+[36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/bootsnap-1.7.5/lib/bootsnap/load_path_cache/core_ext/kernel_require.rb:22:in `require_with_bootsnap_lfi'[0m
+[36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/bootsnap-1.7.5/lib/bootsnap/load_path_cache/core_ext/kernel_require.rb:31:in `require'[0m
+[36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/activesupport-5.2.6/lib/active_support/dependencies.rb:291:in `block in require'[0m
+[36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/activesupport-5.2.6/lib/active_support/dependencies.rb:257:in `load_dependency'[0m
+[36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/activesupport-5.2.6/lib/active_support/dependencies.rb:291:in `require'[0m
+[36m# ./spec/models/user_spec.rb:1:in `<main>'[0m
+[36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/bootsnap-1.7.5/lib/bootsnap/load_path_cache/core_ext/kernel_require.rb:59:in `load'[0m
+[36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/bootsnap-1.7.5/lib/bootsnap/load_path_cache/core_ext/kernel_require.rb:59:in `load'[0m
+[36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/activesupport-5.2.6/lib/active_support/dependencies.rb:285:in `block in load'[0m
+[36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/activesupport-5.2.6/lib/active_support/dependencies.rb:257:in `load_dependency'[0m
+[36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/activesupport-5.2.6/lib/active_support/dependencies.rb:285:in `load'[0m
+
+An error occurred while loading ./spec/system/01_before_login_spec.rb.
+[31mFailure/Error: require File.expand_path('../../config/environment', __FILE__)[0m
+[31m[0m
+[31mFrozenError:[0m
+[31m  can't modify frozen Array[0m
+[36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/railties-5.2.6/lib/rails/engine.rb:587:in `unshift'[0m
+[36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/railties-5.2.6/lib/rails/engine.rb:587:in `block in <class:Engine>'[0m
+[36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/railties-5.2.6/lib/rails/initializable.rb:32:in `instance_exec'[0m
+[36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/railties-5.2.6/lib/rails/initializable.rb:32:in `run'[0m
+[36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/railties-5.2.6/lib/rails/initializable.rb:61:in `block in run_initializers'[0m
+[36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/railties-5.2.6/lib/rails/initializable.rb:50:in `each'[0m
+[36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/railties-5.2.6/lib/rails/initializable.rb:50:in `tsort_each_child'[0m
+[36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/railties-5.2.6/lib/rails/initializable.rb:50:in `each'[0m
+[36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/railties-5.2.6/lib/rails/initializable.rb:50:in `tsort_each_child'[0m
+[36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/railties-5.2.6/lib/rails/initializable.rb:50:in `each'[0m
+[36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/railties-5.2.6/lib/rails/initializable.rb:50:in `tsort_each_child'[0m
+[36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/railties-5.2.6/lib/rails/initializable.rb:50:in `each'[0m
+[36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/railties-5.2.6/lib/rails/initializable.rb:50:in `tsort_each_child'[0m
+[36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/railties-5.2.6/lib/rails/initializable.rb:60:in `run_initializers'[0m
+[36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/railties-5.2.6/lib/rails/application.rb:361:in `initialize!'[0m
+[36m# ./config/environment.rb:5:in `<main>'[0m
+[36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/bootsnap-1.7.5/lib/bootsnap/load_path_cache/core_ext/kernel_require.rb:23:in `require'[0m
+[36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/bootsnap-1.7.5/lib/bootsnap/load_path_cache/core_ext/kernel_require.rb:23:in `block in require_with_bootsnap_lfi'[0m
+[36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/bootsnap-1.7.5/lib/bootsnap/load_path_cache/loaded_features_index.rb:92:in `register'[0m
+[36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/bootsnap-1.7.5/lib/bootsnap/load_path_cache/core_ext/kernel_require.rb:22:in `require_with_bootsnap_lfi'[0m
+[36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/bootsnap-1.7.5/lib/bootsnap/load_path_cache/core_ext/kernel_require.rb:31:in `require'[0m
+[36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/activesupport-5.2.6/lib/active_support/dependencies.rb:291:in `block in require'[0m
+[36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/activesupport-5.2.6/lib/active_support/dependencies.rb:257:in `load_dependency'[0m
+[36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/activesupport-5.2.6/lib/active_support/dependencies.rb:291:in `require'[0m
+[36m# ./spec/rails_helper.rb:4:in `<main>'[0m
+[36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/bootsnap-1.7.5/lib/bootsnap/load_path_cache/core_ext/kernel_require.rb:23:in `require'[0m
+[36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/bootsnap-1.7.5/lib/bootsnap/load_path_cache/core_ext/kernel_require.rb:23:in `block in require_with_bootsnap_lfi'[0m
+[36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/bootsnap-1.7.5/lib/bootsnap/load_path_cache/loaded_features_index.rb:92:in `register'[0m
+[36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/bootsnap-1.7.5/lib/bootsnap/load_path_cache/core_ext/kernel_require.rb:22:in `require_with_bootsnap_lfi'[0m
+[36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/bootsnap-1.7.5/lib/bootsnap/load_path_cache/core_ext/kernel_require.rb:31:in `require'[0m
+[36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/activesupport-5.2.6/lib/active_support/dependencies.rb:291:in `block in require'[0m
+[36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/activesupport-5.2.6/lib/active_support/dependencies.rb:257:in `load_dependency'[0m
+[36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/activesupport-5.2.6/lib/active_support/dependencies.rb:291:in `require'[0m
+[36m# ./spec/system/01_before_login_spec.rb:1:in `<main>'[0m
+[36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/bootsnap-1.7.5/lib/bootsnap/load_path_cache/core_ext/kernel_require.rb:59:in `load'[0m
+[36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/bootsnap-1.7.5/lib/bootsnap/load_path_cache/core_ext/kernel_require.rb:59:in `load'[0m
+[36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/activesupport-5.2.6/lib/active_support/dependencies.rb:285:in `block in load'[0m
+[36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/activesupport-5.2.6/lib/active_support/dependencies.rb:257:in `load_dependency'[0m
+[36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/activesupport-5.2.6/lib/active_support/dependencies.rb:285:in `load'[0m
+
+An error occurred while loading ./spec/system/02_after_login_spec.rb.
+[31mFailure/Error: require File.expand_path('../../config/environment', __FILE__)[0m
+[31m[0m
+[31mFrozenError:[0m
+[31m  can't modify frozen Array[0m
+[36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/railties-5.2.6/lib/rails/engine.rb:587:in `unshift'[0m
+[36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/railties-5.2.6/lib/rails/engine.rb:587:in `block in <class:Engine>'[0m
+[36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/railties-5.2.6/lib/rails/initializable.rb:32:in `instance_exec'[0m
+[36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/railties-5.2.6/lib/rails/initializable.rb:32:in `run'[0m
+[36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/railties-5.2.6/lib/rails/initializable.rb:61:in `block in run_initializers'[0m
+[36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/railties-5.2.6/lib/rails/initializable.rb:50:in `each'[0m
+[36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/railties-5.2.6/lib/rails/initializable.rb:50:in `tsort_each_child'[0m
+[36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/railties-5.2.6/lib/rails/initializable.rb:50:in `each'[0m
+[36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/railties-5.2.6/lib/rails/initializable.rb:50:in `tsort_each_child'[0m
+[36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/railties-5.2.6/lib/rails/initializable.rb:50:in `each'[0m
+[36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/railties-5.2.6/lib/rails/initializable.rb:50:in `tsort_each_child'[0m
+[36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/railties-5.2.6/lib/rails/initializable.rb:50:in `each'[0m
+[36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/railties-5.2.6/lib/rails/initializable.rb:50:in `tsort_each_child'[0m
+[36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/railties-5.2.6/lib/rails/initializable.rb:60:in `run_initializers'[0m
+[36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/railties-5.2.6/lib/rails/application.rb:361:in `initialize!'[0m
+[36m# ./config/environment.rb:5:in `<main>'[0m
+[36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/bootsnap-1.7.5/lib/bootsnap/load_path_cache/core_ext/kernel_require.rb:23:in `require'[0m
+[36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/bootsnap-1.7.5/lib/bootsnap/load_path_cache/core_ext/kernel_require.rb:23:in `block in require_with_bootsnap_lfi'[0m
+[36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/bootsnap-1.7.5/lib/bootsnap/load_path_cache/loaded_features_index.rb:92:in `register'[0m
+[36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/bootsnap-1.7.5/lib/bootsnap/load_path_cache/core_ext/kernel_require.rb:22:in `require_with_bootsnap_lfi'[0m
+[36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/bootsnap-1.7.5/lib/bootsnap/load_path_cache/core_ext/kernel_require.rb:31:in `require'[0m
+[36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/activesupport-5.2.6/lib/active_support/dependencies.rb:291:in `block in require'[0m
+[36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/activesupport-5.2.6/lib/active_support/dependencies.rb:257:in `load_dependency'[0m
+[36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/activesupport-5.2.6/lib/active_support/dependencies.rb:291:in `require'[0m
+[36m# ./spec/rails_helper.rb:4:in `<main>'[0m
+[36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/bootsnap-1.7.5/lib/bootsnap/load_path_cache/core_ext/kernel_require.rb:23:in `require'[0m
+[36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/bootsnap-1.7.5/lib/bootsnap/load_path_cache/core_ext/kernel_require.rb:23:in `block in require_with_bootsnap_lfi'[0m
+[36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/bootsnap-1.7.5/lib/bootsnap/load_path_cache/loaded_features_index.rb:92:in `register'[0m
+[36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/bootsnap-1.7.5/lib/bootsnap/load_path_cache/core_ext/kernel_require.rb:22:in `require_with_bootsnap_lfi'[0m
+[36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/bootsnap-1.7.5/lib/bootsnap/load_path_cache/core_ext/kernel_require.rb:31:in `require'[0m
+[36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/activesupport-5.2.6/lib/active_support/dependencies.rb:291:in `block in require'[0m
+[36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/activesupport-5.2.6/lib/active_support/dependencies.rb:257:in `load_dependency'[0m
+[36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/activesupport-5.2.6/lib/active_support/dependencies.rb:291:in `require'[0m
+[36m# ./spec/system/02_after_login_spec.rb:1:in `<main>'[0m
+[36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/bootsnap-1.7.5/lib/bootsnap/load_path_cache/core_ext/kernel_require.rb:59:in `load'[0m
+[36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/bootsnap-1.7.5/lib/bootsnap/load_path_cache/core_ext/kernel_require.rb:59:in `load'[0m
+[36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/activesupport-5.2.6/lib/active_support/dependencies.rb:285:in `block in load'[0m
+[36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/activesupport-5.2.6/lib/active_support/dependencies.rb:257:in `load_dependency'[0m
+[36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/activesupport-5.2.6/lib/active_support/dependencies.rb:285:in `load'[0m
+
+An error occurred while loading ./spec/system/03_finishing_touches_spec.rb.
+[31mFailure/Error: require File.expand_path('../../config/environment', __FILE__)[0m
+[31m[0m
+[31mFrozenError:[0m
+[31m  can't modify frozen Array[0m
+[36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/railties-5.2.6/lib/rails/engine.rb:587:in `unshift'[0m
+[36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/railties-5.2.6/lib/rails/engine.rb:587:in `block in <class:Engine>'[0m
+[36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/railties-5.2.6/lib/rails/initializable.rb:32:in `instance_exec'[0m
+[36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/railties-5.2.6/lib/rails/initializable.rb:32:in `run'[0m
+[36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/railties-5.2.6/lib/rails/initializable.rb:61:in `block in run_initializers'[0m
+[36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/railties-5.2.6/lib/rails/initializable.rb:50:in `each'[0m
+[36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/railties-5.2.6/lib/rails/initializable.rb:50:in `tsort_each_child'[0m
+[36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/railties-5.2.6/lib/rails/initializable.rb:50:in `each'[0m
+[36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/railties-5.2.6/lib/rails/initializable.rb:50:in `tsort_each_child'[0m
+[36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/railties-5.2.6/lib/rails/initializable.rb:50:in `each'[0m
+[36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/railties-5.2.6/lib/rails/initializable.rb:50:in `tsort_each_child'[0m
+[36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/railties-5.2.6/lib/rails/initializable.rb:50:in `each'[0m
+[36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/railties-5.2.6/lib/rails/initializable.rb:50:in `tsort_each_child'[0m
+[36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/railties-5.2.6/lib/rails/initializable.rb:60:in `run_initializers'[0m
+[36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/railties-5.2.6/lib/rails/application.rb:361:in `initialize!'[0m
+[36m# ./config/environment.rb:5:in `<main>'[0m
+[36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/bootsnap-1.7.5/lib/bootsnap/load_path_cache/core_ext/kernel_require.rb:23:in `require'[0m
+[36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/bootsnap-1.7.5/lib/bootsnap/load_path_cache/core_ext/kernel_require.rb:23:in `block in require_with_bootsnap_lfi'[0m
+[36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/bootsnap-1.7.5/lib/bootsnap/load_path_cache/loaded_features_index.rb:92:in `register'[0m
+[36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/bootsnap-1.7.5/lib/bootsnap/load_path_cache/core_ext/kernel_require.rb:22:in `require_with_bootsnap_lfi'[0m
+[36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/bootsnap-1.7.5/lib/bootsnap/load_path_cache/core_ext/kernel_require.rb:31:in `require'[0m
+[36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/activesupport-5.2.6/lib/active_support/dependencies.rb:291:in `block in require'[0m
+[36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/activesupport-5.2.6/lib/active_support/dependencies.rb:257:in `load_dependency'[0m
+[36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/activesupport-5.2.6/lib/active_support/dependencies.rb:291:in `require'[0m
+[36m# ./spec/rails_helper.rb:4:in `<main>'[0m
+[36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/bootsnap-1.7.5/lib/bootsnap/load_path_cache/core_ext/kernel_require.rb:23:in `require'[0m
+[36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/bootsnap-1.7.5/lib/bootsnap/load_path_cache/core_ext/kernel_require.rb:23:in `block in require_with_bootsnap_lfi'[0m
+[36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/bootsnap-1.7.5/lib/bootsnap/load_path_cache/loaded_features_index.rb:92:in `register'[0m
+[36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/bootsnap-1.7.5/lib/bootsnap/load_path_cache/core_ext/kernel_require.rb:22:in `require_with_bootsnap_lfi'[0m
+[36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/bootsnap-1.7.5/lib/bootsnap/load_path_cache/core_ext/kernel_require.rb:31:in `require'[0m
+[36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/activesupport-5.2.6/lib/active_support/dependencies.rb:291:in `block in require'[0m
+[36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/activesupport-5.2.6/lib/active_support/dependencies.rb:257:in `load_dependency'[0m
+[36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/activesupport-5.2.6/lib/active_support/dependencies.rb:291:in `require'[0m
+[36m# ./spec/system/03_finishing_touches_spec.rb:1:in `<main>'[0m
+[36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/bootsnap-1.7.5/lib/bootsnap/load_path_cache/core_ext/kernel_require.rb:59:in `load'[0m
+[36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/bootsnap-1.7.5/lib/bootsnap/load_path_cache/core_ext/kernel_require.rb:59:in `load'[0m
+[36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/activesupport-5.2.6/lib/active_support/dependencies.rb:285:in `block in load'[0m
+[36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/activesupport-5.2.6/lib/active_support/dependencies.rb:257:in `load_dependency'[0m
+[36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/activesupport-5.2.6/lib/active_support/dependencies.rb:285:in `load'[0m
+No examples found.
+
+Finished in 0.00004 seconds (files took 1.19 seconds to load)
+[31m0 examples, 0 failures, 5 errors occurred outside of examples[0m
+

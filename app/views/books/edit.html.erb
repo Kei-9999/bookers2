@@ -1,4 +1,11 @@
-<p id="notice"></p>
+<% if @book.errors.any? %>
+  <%= @book.errors.count %>errors prohibited this user from
+  <% @book.errors.full_messages.each do |message| %>
+    <%= message %>
+  <% end %>
+<% end %>
+
+
 　<div class="container">
     <div class="row">
      <div class="col-sm-12 col-md-8 col-lg-5 px-5 px-sm-0 mx-auto">
@@ -23,7 +30,7 @@
            <%= f.submit 'Update Book',class:"btn btn-success" %>
 
            <br>
-           <%= link_to "show", book_path(@book.id)%> | <%= link_to "Back", books_path %></p>
+           <%= link_to "Show", book_path(@book.id)%> | <%= link_to "Back", books_path %></p>
         <% end %>
       </div>
     </div>

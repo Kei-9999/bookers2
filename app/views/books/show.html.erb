@@ -1,5 +1,6 @@
+<p class="notice"><%= notice %></p>
+<p class="alert"><%= alert %></p>
 <!--本の詳細ページ-->
-<p id="notice"></p>
   <div class="container px-5 px-sm-0">
     <div class="row">
 
@@ -29,9 +30,10 @@
 
         <td><%= @book.body %></td>
 
+     <% if @user.id == current_user.id %>
         <td><%= link_to "Edit", "/books/#{@book.id}/edit" %></td>
         <td><%= link_to "Destroy", "/books/#{@book.id}",method: :delete %></td>
-
+     <% end %>
 
 
     </tbody>
