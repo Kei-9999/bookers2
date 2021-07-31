@@ -13,5 +13,9 @@ Rails.application.routes.draw do
   resources :profile_image, only: [:new, :create, :index, :show, :destroy]
 
 
+  resources :relationships
 
-end
+  end
+
+
+

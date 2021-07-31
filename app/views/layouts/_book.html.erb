@@ -17,6 +17,14 @@
   	  <th>introduction</th>
   	  <th><%= user.introduction %></th>
     </tr>
+    <tr>
+      <th>follows</th>
+      <td><%= link_to relatiionships_path(book) do %>
+                <%= f %></td>
+　              <% end %>
+
+    </tr>
+      <th>followers</th>
   </tbody>
 </table>
 
