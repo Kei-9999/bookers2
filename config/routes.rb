@@ -8,12 +8,18 @@ Rails.application.routes.draw do
       resource :favorites, only: [:create, :destroy]
   end
 
-  resources :users
+  resources :users do
+    get 'relationships/follow' => "relationships#follow", as: "relationship_follow"
+    get 'relationships/follower' => "relationships#follower", as: "relationship_follower"
+    resource :relationships
+  end
+
+
   get 'home/about' => 'homes#about'
   resources :profile_image, only: [:new, :create, :index, :show, :destroy]
 
 
-  resources :relationships
+
 
   end
 
