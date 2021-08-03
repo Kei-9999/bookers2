@@ -19,7 +19,7 @@ Rails.application.routes.draw do
   resources :profile_image, only: [:new, :create, :index, :show, :destroy]
 
 
-
+  get 'search' => 'searches#search'
 
   end
 
