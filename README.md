@@ -28,5 +28,3 @@ Things you may want to cover:
 
 
 
-１
-１
